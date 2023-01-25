@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(154, 154, 236);
+
+}
+#search {
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+}
+#searchBtn {
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+
+}
+.searchHeader {
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 450px;
+    height: 150px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 30px;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.searchHolder {
+    display: flex;
+    justify-content: center;
+}
+.radioHolder {
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+.dataDisplay {
+    display: flex;
+    margin: auto;
+    height: 650px;
+    width: 700px;
+    background-color: black;
+    color: rgb(57, 255, 57);
+    font-size: 40px;
+    align-items: center;  
+    justify-content: center;  
+    border-radius: 20px;
+    border: 5px solid white;
+    text-align: center;
+}
+#close-modal {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 90%;
+}
+.modal {
+   background-color: rgb(194, 194, 245);
+   width: 400px;
+   height: 120px;
+   display: none;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -200px;
+   margin-top: -60px;
+   border-radius: 30px;
+   border: 5px solid black;
+   padding: 10px;
+   font-size: 20px;
+   
+}
+.modal > div {
+    text-align: center;
+}

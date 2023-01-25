@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="modal">
+        <button id="close-modal">X</button>
+        <div>Sorry, the data could not be loaded.</div>
+        
+
+    </div>
+    <div class="searchHeader">
+        <div>
+            Search for a city's weather data!
+        </div>
+        <div class="searchHolder">
+            <input type="text" id="search" name="search" placeholder="city, state, country">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div class="radioHolder">
+            <div>
+                <input type="radio" id="fahr" name="units" value="imperial" checked="true">
+                <label for="fahr">Fahrenheit</label>
+            </div>
+            <div>
+                <input type="radio" id="cels" name="units" value="metric">
+                <label for="cels">Celsius</label>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="dataDisplay">
+        
+        
+    </div>
+    
+
+
+    <script src="logic.js"></script>
+</body>
+</html>
